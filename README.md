@@ -1,3 +1,2 @@
 # dheepthrajesh
-#Portfolio that contains all projects I have undertaken over the years 
-#Different projects are present in different branches of this repository
+Developed a simulation of an online banking platform containing all its basic functionalities for Bank of America workshop
