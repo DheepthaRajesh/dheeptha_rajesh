@@ -114,15 +114,15 @@ def invoice():
 
 
 
-Customer.C1 = (1004,"Meraaj Akhtar Faruqui","M’","07/07/1998",1009,"meraajakhtar@gmail.com",87654398,"25 Jurong Avenue Block 897")
+Customer.C1 = (1004,"John","M’","07/07/1998",1009,"meraajakhtar@gmail.com",87654398,"25 Jurong Avenue Block 897")
 
-Customer.C2 = (1001,"Devansh Shah","M","13/09/2000",1241,"devanshshah@gmail.com",90810987,"50 Choa Chu Kang North 8")
+Customer.C2 = (1001,"Aman","M","13/09/2000",1241,"devanshshah@gmail.com",90810987,"50 Choa Chu Kang North 8")
 
-Customer.C3 = (1002,"Akash Chandrasekar","M","18/01/2001",1111,"akashc@gmail.com",90909090,"54 Yew Tee Circle")
+Customer.C3 = (1002,"Ross","M","18/01/2001",1111,"akashc@gmail.com",90909090,"54 Yew Tee Circle")
 
-Customer.C4 = (1003,"Raman Gupta","M","09/09/1999",1234,"ramangupta@gmail.com",89796787,"27 Punggol Field Walk")
+Customer.C4 = (1003,"Harvey","M","09/09/1999",1234,"ramangupta@gmail.com",89796787,"27 Punggol Field Walk")
 
-Customer.C5 = (1005,"Dheeptha Rajesh","F","07/07/1998",1049,"dheeptharajesh@gmail.com",90987878,"25 Boon Lay Avenue Block 107")
+Customer.C5 = (1005,"Amy","F","07/07/1998",1049,"dheeptharajesh@gmail.com",90987878,"25 Boon Lay Avenue Block 107")
 
 Account.A1=(1001,10001,15000)
 Account.A2=(1002,10002,150000)
