@@ -1,2 +1,2 @@
 # dheepthrajesh
-#Contains a list of projects that I have done over the years
+Code for transforming the data received by accelerometer in arduino to play a video when pedalling motion is detected using Python
