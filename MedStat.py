@@ -613,7 +613,7 @@ It recognizes the importance of ensuring maximum safety of customers during this
 
 print()
 delivery_dic={"harilalkish28":"mypasswordisthis","calebAsh987":"calebrox007","lucycray67":"lucyspasswd","ashwinkk784":"vamika559","sheetalranjan44":"ranrun240!"}
-board_dic={"Aarushi29":"Aarushi2905always","Richavm92":"Vmricha9222","Dheeptha2409":"RajeshDheeptha11"}
+board_dic={"Amy29":"Rachel28","Ross92":"Mike22","John24":"Harvey11"}
 
 while True:
         print("""                         Enter 1 to login and place an order
