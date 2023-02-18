@@ -1,2 +1,2 @@
 # dheepthrajesh
-#Contains a list of projects that I have done over the years
+Portfolio that contains all projects I have undertaken over the years
