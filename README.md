@@ -1,2 +1,4 @@
-# dheepthrajesh
-Code for transforming the data received by accelerometer in arduino to play a video when pedalling motion is detected using Python
+# Arduino to Python
+Transforms the data received by accelerometer in arduino to display a certain video using Python
+Used in BusCycle - an engaging experience in bus stops - the prototype is programmed to play an interactive video when pedalling motion is detected by accelerometer
+
