@@ -1,3 +1,2 @@
 # dheeptharajesh
-#Portfolio that contains all projects I have undertaken over the years 
-#Different projects are present in different branches of this repository
+Surival game that branches into different storylines based on the user's choices at every intersection, programmed with Python
