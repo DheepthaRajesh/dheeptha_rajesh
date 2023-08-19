@@ -6,3 +6,5 @@ The portal also allows Landlords to manage the units and leases they own.
 This project uses Next js for Frontend, Express JS server for Backend and mySQL database
 
 Also includes frontend unit tests written using Jest framework, backend unit tests using Postman test suite and system tests using Selenium. 
+
+Project done in Term 5 SUTD - May 2023
