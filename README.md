@@ -16,8 +16,8 @@ Projects in this repository:
      
   4. EventFull-project : Website/online platform that not only enables users to search for events and their details but also allows users to add information and specifics about any events organised by them. Developed using Python and HTML - 2020
      
-  5. Housing-portal-react :
-     
+  5. Housing-portal-react : Housing Management Portal developed using React for Tenants to raise Service Request Tickets (eg. cleanliness, etc.) and for Landlords to address these requests and provide quotations. Developed using NextJS, ExpressJS and MySQL. Tested using Jest, Selenium and Postman test suite.
+   
   6. ML-HMM-model-python :
      
   7. ML-model-PriceVsSupply-ppt :
