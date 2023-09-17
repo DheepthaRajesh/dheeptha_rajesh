@@ -1,10 +1,11 @@
-# Housing Management Portal - React 
-Housing Management Portal for Tenants and Landlords that allow Tenants to raise Service Tickets (eg.cleanliness, extension of aircon, etc.) and the Landlord will then be able to accept the request, provide quotation and track task until completed
+# Housing Management Portal developed using React framework
 
-The portal also allows Landlords to manage the units and leases they own.
+Housing Management Portal for Tenants and Landlords that allow Tenants to raise Service Tickets (eg.cleanliness, extension of aircon, etc.) and the Landlord to accept the received request, provide quotation and track task until completed. The portal also allows Landlords to manage the units and leases they own.
 
-This project uses Next js for Frontend, Express JS server for Backend and mySQL database
+The project includes two portals - the Tenant Portal and the Landlord Portal
 
-Also includes frontend unit tests written using Jest framework, backend unit tests using Postman test suite and system tests using Selenium. 
+This project uses Next js for Frontend, Express JS server for Backend, Postman for API and mySQL for the database.
+
+The project also includes frontend unit tests written using Jest framework, system tests using Selenium and backend tests using Postman test suite.
 
 Project done in Term 5 SUTD - May 2023
