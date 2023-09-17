@@ -10,9 +10,9 @@ Projects in this repository:
 
   1. ArduinoToPython : Transforms the data received by accelerometer in arduino to display a certain video using Python - 2022
      
-  2. BankOfAmerica-project : Developed a simulation of an online banking platform containing all its basic functionalities such as login/sign up, deposit, withdraw , etc. using Python - 2020
+  2. BankOfAmerica-project : Simulation of an online banking platform containing all its basic functionalities such as login/sign up, deposit, withdraw , etc. using Python - 2020
      
-  3. Educational-Q&A-android(java)-app :
+  3. Educational-Q&A-android(java)-app : Android app developed using Java, Firebase and built on Stream SDK, designed to manage classroom queries while not compromising on engagement and content delivery - 2023
      
   4. EventFull-project :
      
