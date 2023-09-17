@@ -1,6 +1,10 @@
-# Dheeptha Rajesh - portfolio
-Portfolio that contains all projects I have undertaken over the years      
+# ML Hidden Markov Model (HMM) - Sequence labelling model for sentiment analysis
 
-The projects are present in different branches of this repository
+This Machine Learning project is to build a sequence labelling model using Hidden Markov Model for training data in two different languages and then use this system to predict tag sequences for new sentences to perform sentiment analysis.
 
--> (click on the 'main' drop down menu to access the projects)
+The project includes estimation of emission and transition parameters, and using viterbi algorithm to determine the k-th best output sequences for the given data.
+
+Written using Python
+
+Project done in Term 5 SUTD - May 2023
+
