@@ -1,10 +1,14 @@
 # Dheeptha Rajesh - portfolio
 
-### Portfolio that contains all projects I have undertaken over the years      
+### Portfolio that contains all projects I have undertaken over the years    
+
 
 The projects are present in different branches of this repository
 
   -> (click on the 'main' drop down menu above to access the projects)
+
+
+  
 
 Projects in this repository:
 
@@ -24,4 +28,4 @@ Projects in this repository:
      
   8. **MedStat-project** : An online ordering and delivery management system developed during COVID-19 that caters to vital needs such as medicine and stationary products. Developed using Python, MySQL and HTML - 2021
      
-  9. **SurvivalGame-project** :
+  9. **SurvivalGame-project** : Survival game that branches into different storylines based on the user's choices at every intersection and displays some interesting facts about each obstacle the user encounters. Programmed using Python - 2021
