@@ -8,12 +8,12 @@ The projects are present in different branches of this repository
 
 Projects in this repository:
 
-  1. ArduinoToPython
-  2. BankOfAmerica-project
-  3. Educational-Q&A-android(java)-app
-  4. EventFull-project
-  5. Housing-portal-react
-  6. ML-HMM-model-python
-  7. ML-model-PriceVsSupply-ppt
-  8. MedStat-project
-  9. SurvivalGame-project
+  1. ArduinoToPython : Transforms the data received by accelerometer in arduino to display a certain video using Python - 2022
+  2. BankOfAmerica-project : 
+  3. Educational-Q&A-android(java)-app :
+  4. EventFull-project :
+  5. Housing-portal-react :
+  6. ML-HMM-model-python :
+  7. ML-model-PriceVsSupply-ppt :
+  8. MedStat-project :
+  9. SurvivalGame-project :
