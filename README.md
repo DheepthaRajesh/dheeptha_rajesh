@@ -1,4 +1,6 @@
 # Survival Gaming Program
-Survival game that branches into different storylines based on the user's choices at every intersection and displays some interesting facts about each obstacle the user encounters
+Survival game that branches into different storylines based on the user's choices at every intersection and displays some interesting facts about each obstacle the user encounters.
 
 Programmed using Python
+
+Project completed in Term 1 SUTD - Sep 2021
