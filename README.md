@@ -20,7 +20,7 @@ Projects in this repository:
    
   6. ML-HMM-model-python : Machine Learning project to build a sequence labelling model using Hidden Markov Model for training data in two different languages and then use this system to predict tag sequences for new sentences to perform sentiment analysis. Written using python - 2023
      
-  7. ML-model-PriceVsSupply-ppt :
+  7. ML-model-PriceVsSupply-ppt : Machine Learning model that predicts the price of fruits and vegetables given the various factors of supply like Production, Arable Land, Population etc. by training a dataset containing data from over 110 countries. Written using Python (pandas framework) - 2022
      
   8. MedStat-project :
      
