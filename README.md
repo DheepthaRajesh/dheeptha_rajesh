@@ -7,7 +7,7 @@ The recent upswing in resale flat prices and the unpredictable trends in the mar
 
 The Housing Development Board (HDB), a government agency, oversees public housing in singapore and various elements, including location, flat size, flat type, remaining lease, and others, influence HDB resale flat prices. 
 
-**How might we** develop an <u>AI-driven solution</u> to <u>accurately predict resale flat prices in Singapore's public housing market</u>, addressing the pressing need for <u>accurate forecasts amidst market fluctuations?</u>
+**How might we** develop an AI-driven solution to accurately predict resale flat prices in Singapore's public housing market, addressing the pressing need for accurate forecasts amidst market fluctuations?
 
 ## Team Members
 1. **[Radhi Priya Janakiraman](https://github.com/rpriyaj)**
