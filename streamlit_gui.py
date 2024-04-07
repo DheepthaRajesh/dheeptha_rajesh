@@ -1,7 +1,11 @@
 import streamlit as st
+from streamlit_folium import folium_static
+import folium
+
 import pandas as pd
 import numpy as np
 import pickle
+import pydeck as pdk
 
 from utils import find_postal
 from utils import find_nearest
@@ -70,6 +74,8 @@ try:
                         'POSTAL' : [coord.get('results')[0].get('POSTAL')]
                         })
     
+
+    
 except IndexError:
     st.error('Oops! Address is not valid! Please enter a valid address!')
 
@@ -80,6 +86,21 @@ flat_mall = flat_mall.rename(columns={0: 'flat', 1: 'mall', 2: 'mall_dist',
                                       3: 'mall_within_1km'}).reset_index().drop('index', axis=1)
 malls_1km['type'] = ['Mall']*len(malls_1km)
 
+# Extract mall name from flat_mall
+mall_name = flat_mall['mall'].iloc[0]
+
+# Filter malls_1km DataFrame to get the latitude and longitude for the nearest mall
+nearest_mall_info = malls_1km[malls_1km['name'] == mall_name].iloc[0]
+
+# Create DataFrame with name, latitude, and longitude columns
+mall_map = pd.DataFrame({
+    'name': [mall_name],
+    'LATITUDE': [nearest_mall_info['lat']],
+    'LONGITUDE': [nearest_mall_info['lon']],
+    'type': ['mall']
+})
+
+
 
 nearest_mrt,mrt_1km = find_nearest(flat_coord, mrt_coordinates)
 flat_mrt = pd.DataFrame.from_dict(nearest_mrt).T
@@ -87,17 +108,66 @@ flat_mrt = flat_mrt.rename(columns={0: 'flat', 1: 'mrt', 2: 'mrt_dist',
                                     3: 'mrt_within_1km'}).reset_index().drop('index', axis=1)
 mrt_1km['type'] = ['MRT']*len(mrt_1km)
 
+# Extract MRT station name from flat_mrt
+mrt_station_name = flat_mrt['mrt'].iloc[0]
+
+# Filter mrt_1km DataFrame to get the latitude and longitude for the nearest MRT station
+nearest_mrt_info = mrt_1km[mrt_1km['name'] == mrt_station_name].iloc[0]
+
+# Create DataFrame with name, latitude, and longitude columns
+mrt_map = pd.DataFrame({
+    'name': [mrt_station_name],
+    'LATITUDE': [nearest_mrt_info['lat']],
+    'LONGITUDE': [nearest_mrt_info['lon']],
+    'type': ['mrt']
+})
+
+
+
+
+
 nearest_school,school_1km = find_nearest(flat_coord, school_coordinates)
 flat_school = pd.DataFrame.from_dict(nearest_school).T
 flat_school = flat_school.rename(columns={0: 'flat', 1: 'school', 2: 'school_dist',
                                     3: 'school_within_1km'}).reset_index().drop('index', axis=1)
 school_1km['type'] = ['School']*len(school_1km)
 
+# Extract school name from flat_school
+school_name = flat_school['school'].iloc[0]
+
+# Filter school_1km DataFrame to get the latitude and longitude for the nearest school
+nearest_school_info = school_1km[school_1km['name'] == school_name].iloc[0]
+
+# Create DataFrame with name, latitude, and longitude columns
+school_map = pd.DataFrame({
+    'name': [school_name],
+    'LATITUDE': [nearest_school_info['lat']],
+    'LONGITUDE': [nearest_school_info['lon']],
+    'type': ['school']
+})
+
+
+
 nearest_hawker,hawker_1km = find_nearest(flat_coord, hawker_coordinates)
 flat_hawker = pd.DataFrame.from_dict(nearest_hawker).T
 flat_hawker = flat_hawker.rename(columns={0: 'flat', 1: 'hawker', 2: 'hawker_dist',
                                     3: 'hawker_within_1km'}).reset_index().drop('index', axis=1)
 hawker_1km['type'] = ['Hawker']*len(hawker_1km)
+
+# Extract hawker name from flat_hawker
+hawker_name = flat_hawker['hawker'].iloc[0]
+
+# Filter hawker_1km DataFrame to get the latitude and longitude for the nearest hawker centre
+nearest_hawker_info = hawker_1km[hawker_1km['name'] == hawker_name].iloc[0]
+
+# Create DataFrame with name, latitude, and longitude columns
+hawker_map = pd.DataFrame({
+    'name': [hawker_name],
+    'LATITUDE': [nearest_hawker_info['lat']],
+    'LONGITUDE': [nearest_hawker_info['lon']],
+    'type': ['hawker']
+})
+
 
 
 
@@ -131,6 +201,9 @@ if show_amenities_button:
     else:
         hawker_distance = "Within 1 km" if flat_hawker['hawker_within_1km'].iloc[0] else "More than 1 km"
         st.write(f"Hawker Centre: {flat_hawker['hawker'].iloc[0]} ({hawker_distance})")
+
+
+
 
 features = {}
 print("\n")
@@ -186,3 +259,49 @@ for flat_model_cat in flat_model_categories:
 if predict_button:
     predict_price(features,feature_names)
     
+flat_coord['LATITUDE'] = flat_coord['LATITUDE'].astype(float)
+flat_coord['LONGITUDE'] = flat_coord['LONGITUDE'].astype(float)
+
+flat_map = pd.DataFrame({
+    'name': [flat_coord['address'].iloc[0]],
+    'LATITUDE': [flat_coord['LATITUDE'].iloc[0]],
+    'LONGITUDE': [flat_coord['LONGITUDE'].iloc[0]],
+    'type': ['hdb']
+})
+map_df = pd.concat([flat_map, mall_map, mrt_map, school_map, hawker_map], ignore_index=True)
+
+
+# Display map
+st.subheader("Map of HDB and Nearest Amenities")
+if not map_df.empty:
+
+    # Calculate the average latitude and longitude
+    average_latitude = map_df['LATITUDE'].mean()
+    average_longitude = map_df['LONGITUDE'].mean()
+
+    # Folium map :
+    folium_map = folium.Map(location=[average_latitude
+                                        , average_longitude]
+                                        , zoom_start=15
+                                        , control_scale=True)
+    
+    # Add markers for amenities and the HDB flat
+    for index, row in map_df.iterrows():
+        # Marker for HDB :
+        if row['type'] == 'hdb':
+            folium.Marker([row['LATITUDE'], row['LONGITUDE']], popup=row['name'], icon=folium.Icon(color='red', icon='home', icon_color='white', prefix='fa')).add_to(folium_map)
+        # Markers for amenities :
+        elif row['type'] == 'mall':
+            folium.Marker([row['LATITUDE'], row['LONGITUDE']], popup=row['name'], icon=folium.Icon(color='blue', icon_color='white', icon = 'shopping-cart', prefix='fa')).add_to(folium_map)
+        elif row['type'] == 'school':
+            folium.Marker([row['LATITUDE'], row['LONGITUDE']], popup=row['name'], icon=folium.Icon(color='blue', icon_color='white', icon = 'graduation-cap', prefix='fa')).add_to(folium_map)
+        elif row['type'] == 'hawker':
+            folium.Marker([row['LATITUDE'], row['LONGITUDE']], popup=row['name'], icon=folium.Icon(color='blue', icon_color='white', icon = 'cutlery', prefix='fa')).add_to(folium_map)
+        elif row['type'] == 'mrt':
+            folium.Marker([row['LATITUDE'], row['LONGITUDE']], popup=row['name'], icon=folium.Icon(color='blue', icon_color='white', icon = 'train', prefix='fa')).add_to(folium_map)
+
+        
+
+
+    # render Folium map in Streamlit :
+    folium_static(folium_map)
