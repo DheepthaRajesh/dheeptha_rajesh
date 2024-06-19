@@ -20,12 +20,14 @@ Projects in this repository:
      
   4. **EventFull-project** : Website/online platform that not only enables users to search for events and their details but also allows users to add information and specifics about any events organised by them. Developed using Python and HTML - 2020
      
-  5. **Housing-portal-react** : Housing Management Portal developed using React for Tenants to raise Service Request Tickets (eg. cleanliness, etc.) and for Landlords to address these requests and provide quotations. Developed using NextJS, ExpressJS and MySQL. Tested using Jest, Selenium and Postman test suite - 2023
+  5. **FinancePlanner-project-C** : Personal Finance Manager project that allows users to visualise their expenses spent in different bank accounts through expense categorization tables and graphs showcasing the amount spent in each account in different currencies. Written primarily using C, with HTML and javascript (Plotly library) used to render the web page and expense graphs - 2024
+     
+  6. **Housing-portal-react** : Housing Management Portal developed using React for Tenants to raise Service Request Tickets (eg. cleanliness, etc.) and for Landlords to address these requests and provide quotations. Developed using NextJS, ExpressJS and MySQL. Tested using Jest, Selenium and Postman test suite - 2023
    
-  6. **ML-HMM-model-python** : Machine Learning project to build a sequence labelling model using Hidden Markov Model for training data in two different languages and then use this system to predict tag sequences for new sentences to perform sentiment analysis. Written using python - 2023
+  7. **ML-HMM-model-python** : Machine Learning project to build a sequence labelling model using Hidden Markov Model for training data in two different languages and then use this system to predict tag sequences for new sentences to perform sentiment analysis. Written using python - 2023
      
-  7. **ML-model-PriceVsSupply-ppt** : Machine Learning model that predicts the price of fruits and vegetables given the various factors of supply like Production, Arable Land, Population etc. by training a dataset containing data from over 110 countries. Written using Python (pandas framework) - 2022
+  8. **ML-model-PriceVsSupply-ppt** : Machine Learning model that predicts the price of fruits and vegetables given the various factors of supply like Production, Arable Land, Population etc. by training a dataset containing data from over 110 countries. Written using Python (pandas framework) - 2022
      
-  8. **MedStat-project** : An online ordering and delivery management system developed during COVID-19 that caters to vital needs such as medicine and stationary products. Developed using Python, MySQL and HTML - 2021
+  10. **MedStat-project** : An online ordering and delivery management system developed during COVID-19 that caters to vital needs such as medicine and stationary products. Developed using Python, MySQL and HTML - 2021
      
-  9. **SurvivalGame-project** : Survival game that branches into different storylines based on the user's choices at every intersection and displays some interesting facts about each obstacle the user encounters. Programmed using Python - 2021
+  11. **SurvivalGame-project** : Survival game that branches into different storylines based on the user's choices at every intersection and displays some interesting facts about each obstacle the user encounters. Programmed using Python - 2021
