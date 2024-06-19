@@ -7,6 +7,8 @@ This project is written primarily using C with HTML and javascript (Plotly libra
 
 The project utilizes all fundamental concepts of C language such as Finite State Machines with 1 FSM to handle input pages and 1 FSM to handle output pages. It also includes a manual parser to first validate (if in correct format) and then parse the input json files. HTML is used to render the home page, user bar graph page, account overall expenses page and account overall yearly expenses page. Plotly library from javascript is used to render the user bar graphs and account overall and yearly expense scatterplots. 
 
+Project done in Term 6 SUTD - 2024
+
 
 Getting Started
 ===================
