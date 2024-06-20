@@ -29,5 +29,7 @@ Projects in this repository:
   8. **ML-model-PriceVsSupply-ppt** : Machine Learning model that predicts the price of fruits and vegetables given the various factors of supply like Production, Arable Land, Population etc. by training a dataset containing data from over 110 countries. Written using Python (pandas framework) - 2022
      
   10. **MedStat-project** : An online ordering and delivery management system developed during COVID-19 that caters to vital needs such as medicine and stationary products. Developed using Python, MySQL and HTML - 2021
+      
+  11. **PredictResalePrice-AIproject** : AI driven solution to predict resale flat prices in Singapore's public housing market using various factors such as location, flat size, type, remaining lease and proximity to amenities. The project adheres to all phases in the AI Project Lifecycle and utilizes the Streamlit library for the GUI - 2024
      
-  11. **SurvivalGame-project** : Survival game that branches into different storylines based on the user's choices at every intersection and displays some interesting facts about each obstacle the user encounters. Programmed using Python - 2021
+  12. **SurvivalGame-project** : Survival game that branches into different storylines based on the user's choices at every intersection and displays some interesting facts about each obstacle the user encounters. Programmed using Python - 2021
