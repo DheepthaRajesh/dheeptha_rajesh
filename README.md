@@ -9,6 +9,12 @@ The Housing Development Board (HDB), a government agency, oversees public housin
 
 **How might we** develop an AI-driven solution to accurately predict resale flat prices in Singapore's public housing market, addressing the pressing need for accurate forecasts amidst market fluctuations?
 
+This AI project adheres to all phases in the AI Project Lifecycle such as data acquisition where we gathered multiple datasets, data exploration where we visualised the relationships between different features using uni-variate and bi-variate analysis, modelling where we explored five different models - Decision tree regressor, Gradient boosting regressor, Random forest regressor, feed-forward neural networks, and ARIMA, and finally the evalutation phase where we used Root Mean Square Error as our metric and found Random Forest Regressor to perform the best. 
+
+The project also utilises OneMap API to determine the nearest amenities such as schools, hawker centres, shopping malls and MRT stations. The streamlit library is used to develop the GUI which displays the predicted price given user input and also includes a map interface with a visual representation of the locality with the selected flat surrounded by the nearest amenities. 
+
+Project done in Term 6 SUTD - 2024
+
 ## Team Members
 1. **[Radhi Priya Janakiraman](https://github.com/rpriyaj)**
 2. **[Ramita Bharathithasan](https://github.com/rummy0302)**
