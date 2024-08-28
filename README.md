@@ -16,17 +16,19 @@ Projects in this repository:
      
   2. **BankOfAmerica-project** : Simulation of an online banking platform containing all its basic functionalities such as login/sign up, deposit, withdraw , etc. using Python - 2020
      
-  3. **Educational-Q&A-android(java)-app** : Android app developed using Java, Firebase and built on Stream SDK, designed to manage classroom queries while not compromising on engagement and content delivery - 2023
+  3. **Cybersecurity-portfolio** : Contains cybersecurity projects from the Google Cybersecurity Professional Certification, including security audits and risk assessments based on real-world scenarios - 2024
      
-  4. **EventFull-project** : Website/online platform that not only enables users to search for events and their details but also allows users to add information and specifics about any events organised by them. Developed using Python and HTML - 2020
+  4. **Educational-Q&A-android(java)-app** : Android app developed using Java, Firebase and built on Stream SDK, designed to manage classroom queries while not compromising on engagement and content delivery - 2023
      
-  5. **FinanceManager-project-C** : Personal Finance Manager project that allows users to visualise their expenses spent in different bank accounts through expense categorization tables and graphs showcasing the amount spent in each account in different currencies. Written primarily using C, with HTML and javascript (Plotly library) used to render the web page and expense graphs - 2024
+  5. **EventFull-project** : Website/online platform that not only enables users to search for events and their details but also allows users to add information and specifics about any events organised by them. Developed using Python and HTML - 2020
      
-  6. **Housing-portal-react** : Housing Management Portal developed using React for Tenants to raise Service Request Tickets (eg. cleanliness, etc.) and for Landlords to address these requests and provide quotations. Developed using NextJS, ExpressJS and MySQL. Tested using Jest, Selenium and Postman test suite - 2023
+  6. **FinanceManager-project-C** : Personal Finance Manager project that allows users to visualise their expenses spent in different bank accounts through expense categorization tables and graphs showcasing the amount spent in each account in different currencies. Written primarily using C, with HTML and javascript (Plotly library) used to render the web page and expense graphs - 2024
+     
+  7. **Housing-portal-react** : Housing Management Portal developed using React for Tenants to raise Service Request Tickets (eg. cleanliness, etc.) and for Landlords to address these requests and provide quotations. Developed using NextJS, ExpressJS and MySQL. Tested using Jest, Selenium and Postman test suite - 2023
    
-  7. **ML-HMM-model-python** : Machine Learning project to build a sequence labelling model using Hidden Markov Model for training data in two different languages and then use this system to predict tag sequences for new sentences to perform sentiment analysis. Written using python - 2023
+  8. **ML-HMM-model-python** : Machine Learning project to build a sequence labelling model using Hidden Markov Model for training data in two different languages and then use this system to predict tag sequences for new sentences to perform sentiment analysis. Written using python - 2023
      
-  8. **ML-model-PriceVsSupply-ppt** : Machine Learning model that predicts the price of fruits and vegetables given the various factors of supply like Production, Arable Land, Population etc. by training a dataset containing data from over 110 countries. Written using Python (pandas framework) - 2022
+  9. **ML-model-PriceVsSupply-ppt** : Machine Learning model that predicts the price of fruits and vegetables given the various factors of supply like Production, Arable Land, Population etc. by training a dataset containing data from over 110 countries. Written using Python (pandas framework) - 2022
      
   10. **MedStat-project** : An online ordering and delivery management system developed during COVID-19 that caters to vital needs such as medicine and stationary products. Developed using Python, MySQL and HTML - 2021
       
