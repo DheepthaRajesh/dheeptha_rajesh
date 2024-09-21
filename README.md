@@ -16,7 +16,7 @@ Projects in this repository:
      
   2. **BankOfAmerica-project** : Simulation of an online banking platform containing all its basic functionalities such as login/sign up, deposit, withdraw , etc. using Python - 2020
      
-  3. **Cybersecurity-portfolio** : Contains cybersecurity projects from the Google Cybersecurity Professional Certification, including security audits and risk assessments based on real-world scenarios - 2024
+  3. **Cybersecurity-portfolio** : Contains cybersecurity projects from the Google Cybersecurity Professional Certification, including security audits, risk assessments, and managing file permissions in Linux based on real-world scenarios - 2024
      
   4. **Educational-Q&A-android(java)-app** : Android app developed using Java, Firebase and built on Stream SDK, designed to manage classroom queries while not compromising on engagement and content delivery - 2023
      
