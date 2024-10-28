@@ -1,6 +1,6 @@
 ## Cybersecurity Portfolio
 
-#### Contains cybersecurity projects from the Google Cybersecurity Professional Certification including security audits, risk assessments, and managing file permissions in Linux based on real-world scenarios. 
+#### Contains cybersecurity projects from the Google Cybersecurity Professional Certification including security audits, risk assessments, managing file permissions in Linux, and SQL filtering for security investigations - all based on real-world scenarios. 
 
 
 **Cybersecurity Professional Statement:**
@@ -15,3 +15,8 @@ Conducted an internal security audit and risk assessment for a fictional company
 **File permissions management in Linux:**
 
 Demonstrated the ability to manage file and directory permissions in a Linux environment. This project involved analyzing and modifying access control settings to ensure compliance with security policies, such as restricting unauthorized write access and managing hidden file permissions. This is a key skill in maintaining data integrity and preventing unauthorized access within organizations. By managing permissions effectively, organizations can enforce least-privilege principles, which is a cornerstone of cybersecurity best practices. 
+
+
+**SQL Filter Queries for security incident investigation:**
+
+Utilized SQL queries to investigate security incidents by applying advanced filtering techniques. The tasks involved retrieving records from employee and login attempt databases, specifically focusing on after-hours login failures, suspicious login dates, and login attempts outside designated regions. I also extracted employee information based on department and location, applying LIKE, AND, OR, and NOT operators for precise data filtering. This project demonstrates my ability to analyze data patterns and detect anomalies, crucial for identifying potential security threats and enhancing organizational security.
