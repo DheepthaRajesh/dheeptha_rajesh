@@ -1,6 +1,6 @@
 ## Cybersecurity Portfolio
 
-#### Contains cybersecurity projects from the Google Cybersecurity Professional Certification including security audits, risk assessments, managing file permissions in Linux, and SQL filtering for security investigations - all based on real-world scenarios. 
+#### Contains cybersecurity projects from the Google Cybersecurity Professional Certification including security audits, risk assessments, managing file permissions in Linux, SQL filtering for security investigations, and vulnerability report for a database server - all based on real-world scenarios. 
 
 
 **Cybersecurity Professional Statement:**
@@ -20,3 +20,8 @@ Demonstrated the ability to manage file and directory permissions in a Linux env
 **SQL Filter Queries for security incident investigation:**
 
 Utilized SQL queries to investigate security incidents by applying advanced filtering techniques. The tasks involved retrieving records from employee and login attempt databases, specifically focusing on after-hours login failures, suspicious login dates, and login attempts outside designated regions. I also extracted employee information based on department and location, applying LIKE, AND, OR, and NOT operators for precise data filtering. This project demonstrates my ability to analyze data patterns and detect anomalies, crucial for identifying potential security threats and enhancing organizational security.
+
+
+**Vulnerability Assessment Report for Database Server:**
+
+Conducted a comprehensive vulnerability assessment on a database server critical to business operations, with a focus on identifying and evaluating potential security weaknesses in access controls in alignment with NIST SP 800-30 Rev. 1 guidelines. The assessment highlighted risks posed by unauthorized data access, cyber threats, and potential competitor data exfiltration, along with corresponding mitigation strategies. This project demonstrates my ability to identify vulnerabilities that could impact system confidentiality, integrity, and availability, and to propose actionable remediation steps to bolster overall security.
