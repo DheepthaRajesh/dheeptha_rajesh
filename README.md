@@ -1,6 +1,6 @@
 ## Cybersecurity Portfolio
 
-#### Contains cybersecurity projects from the Google Cybersecurity Professional Certification including security audits, risk assessments, managing file permissions in Linux, SQL filtering for security investigations, vulnerability report for a database server, and incident report analysis for a DDoS attack - all based on real-world scenarios. 
+#### Contains cybersecurity projects from the Google Cybersecurity Professional Certification including security audits, risk assessments, managing file permissions in Linux, SQL filtering for security investigations, vulnerability report for a database server, incident report analysis for a DDoS attack, and an incident handler's journal for documenting security incidents - all based on real-world scenarios. 
 
 
 **Cybersecurity Professional Statement:**
@@ -30,3 +30,8 @@ Conducted a comprehensive vulnerability assessment on a database server critical
 **Incident report analysis for DDoS attack:**
 
 Analyzed a simulated cybersecurity incident involving a DDoS attack on network infrastructure, applying the NIST Cybersecurity Framework phases: Identify, Protect, Detect, Respond, and Recover. The activity involved identifying the threat, implementing protective measures like firewall rule adjustments, and employing an IDS/IPS for continuous threat detection. Response steps were designed to contain the incident swiftly, followed by a structured recovery plan to restore normal network functionality. This project highlights my expertise in using the NIST framework to assess incident data, formulate effective mitigation strategies, and reinforce organizational resilience against future cyber threats.
+
+
+**Incident Handler's journal for security incidents:**
+
+Maintained an incident handler journal to document and analyze security incidents encountered, recording essential details such as a description of the incident, tools used, the 5 W’s (who, what, when, where, and why), and additional notes to aid in investigation and prevention efforts. One entry included a ransomware attack triggered by a phishing email with a malicious attachment, leading to encrypted files across the organization’s network. This journal provides a systematic approach to tracking incidents, ensuring continuous learning, and enhancing the organization's response and resilience against future threats.
