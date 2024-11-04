@@ -1,6 +1,6 @@
 ## Cybersecurity Portfolio
 
-#### Contains cybersecurity projects from the Google Cybersecurity Professional Certification including security audits, risk assessments, managing file permissions in Linux, SQL filtering for security investigations, and vulnerability report for a database server - all based on real-world scenarios. 
+#### Contains cybersecurity projects from the Google Cybersecurity Professional Certification including security audits, risk assessments, managing file permissions in Linux, SQL filtering for security investigations, vulnerability report for a database server, and incident report analysis for a DDoS attack - all based on real-world scenarios. 
 
 
 **Cybersecurity Professional Statement:**
@@ -25,3 +25,8 @@ Utilized SQL queries to investigate security incidents by applying advanced filt
 **Vulnerability Assessment Report for Database Server:**
 
 Conducted a comprehensive vulnerability assessment on a database server critical to business operations, with a focus on identifying and evaluating potential security weaknesses in access controls in alignment with NIST SP 800-30 Rev. 1 guidelines. The assessment highlighted risks posed by unauthorized data access, cyber threats, and potential competitor data exfiltration, along with corresponding mitigation strategies. This project demonstrates my ability to identify vulnerabilities that could impact system confidentiality, integrity, and availability, and to propose actionable remediation steps to bolster overall security.
+
+
+**Incident report analysis for DDoS attack:**
+
+Analyzed a simulated cybersecurity incident involving a DDoS attack on network infrastructure, applying the NIST Cybersecurity Framework phases: Identify, Protect, Detect, Respond, and Recover. The activity involved identifying the threat, implementing protective measures like firewall rule adjustments, and employing an IDS/IPS for continuous threat detection. Response steps were designed to contain the incident swiftly, followed by a structured recovery plan to restore normal network functionality. This project highlights my expertise in using the NIST framework to assess incident data, formulate effective mitigation strategies, and reinforce organizational resilience against future cyber threats.
