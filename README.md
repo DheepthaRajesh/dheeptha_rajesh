@@ -33,5 +33,8 @@ Projects in this repository:
   10. **MedStat-project** : An online ordering and delivery management system developed during COVID-19 that caters to vital needs such as medicine and stationary products. Developed using Python, MySQL and HTML - 2021
       
   11. **PredictResalePrice-AIproject** : AI driven solution to predict resale flat prices in Singapore's public housing market using various factors such as location, flat size, type, remaining lease and proximity to amenities. The project adheres to all phases in the AI Project Lifecycle and utilizes the Streamlit library for the GUI - 2024
+      
+  12. **SmartDeskOccupancy-IotCloud** : IoT and cloud-based system to optimize shared workspace usage by detecting desk occupancy in real-time. Utilizes PIR and HC-SR501 sensors with ESP32 for hardware interfacing, Angular for frontend, Node.js/Express for backend, Amazon RDS for database management, and Docker for scalable deployment - 2024.
      
-  12. **SurvivalGame-project** : Survival game that branches into different storylines based on the user's choices at every intersection and displays some interesting facts about each obstacle the user encounters. Programmed using Python - 2021
+  13. **SurvivalGame-project** : Survival game that branches into different storylines based on the user's choices at every intersection and displays some interesting facts about each obstacle the user encounters. Programmed using Python - 2021
+      
