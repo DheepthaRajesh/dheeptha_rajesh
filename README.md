@@ -6,6 +6,8 @@ An IoT and cloud-based system to optimize shared workspace usage by detecting de
 
 The ESP32 and sensors transmit data via serial communication to the backend, which processes it, updates the database, and serves API requests for the frontend. The user-friendly interface allows users to select a facility (e.g., Library), view total available seats and seats per level, and access a real-time desk dashboard with green (available) and red (occupied) desks, updated dynamically based on sensor data.
 
+Project done in Term 7 SUTD - 2024
+
 ## Starting the Application using Docker:
 
 1. Navigate to the project directory where docker-compose.yml is located
