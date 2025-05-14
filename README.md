@@ -32,7 +32,7 @@ Projects in this repository:
      
   10. **MedStat-project** : An online ordering and delivery management system developed during COVID-19 that caters to vital needs such as medicine and stationary products. Developed using Python, MySQL and HTML - 2021
       
-  11. **NutriEstimate-ComputerVision** : Computer Vision based web app to estimate nutritional information from meal images. Users upload food photos through a Streamlit interface, and the backend model analyzes the image to provide breakdown of key nutritional values. Built using Python and Streamlit – 2025
+  11. **NutriEstimate-ComputerVision** : Computer Vision powered web app to estimate nutritional information from meal images. Users upload food photos through a Streamlit interface, and the backend model analyzes the image to provide breakdown of key nutritional values. Built using Python and Streamlit – 2024
       
   12. **PredictResalePrice-AIproject** : AI driven solution to predict resale flat prices in Singapore's public housing market using various factors such as location, flat size, type, remaining lease and proximity to amenities. The project adheres to all phases in the AI Project Lifecycle and utilizes the Streamlit library for the GUI - 2024
       
