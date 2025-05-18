@@ -2,6 +2,12 @@
 
 This project allows users to upload meal images and get nutritional estimates using a Streamlit-based UI and our Computer Vision system.
 
+A real-time nutrition feedback system that leverages computer vision and deep learning to estimate macronutrient content from food images. The solution integrates food recognition and portion estimation, aimed at helping users make informed dietary decisions with minimal manual input. Built using EfficientNetV2-S for feature extraction and prediction, the system is trained on the Nutrition-5k dataset and further optimized with hyperparameter tuning and multi-branch regression.
+
+The pipeline begins with image classification to identify food types using fine-tuned EfficientNetV2-S, selected based on comparative analysis against other architectures. Once identified, the same feature extractor feeds into regression heads that predict protein, fat, carbohydrate, and mass values using normalized data and mean squared error loss. Depth and portion estimation techniques are also explored, adjusting for real-world camera angle variations. A basic interface using Streamlit presents the predictions to the user in an accessible format, offering immediate nutritional breakdown per dish. Together, these components form a scalable, data-driven approach to nutritional awareness and ultimately a more healthier society. 
+
+Project done in Term 7 SUTD - 2024
+
 ---
 
 ## Features
