@@ -11,3 +11,5 @@ Developed a unified Python-based fuzzing tool for automated input generation and
 - **Extensibility**: Easy addition of new target applications with minimal changes to the core loop.
   
 - **Use Cases**: Identifying bugs, crash triggers, and security issues from malformed or adversarial input.
+
+Project done in Term 8 SUTD - 2025
