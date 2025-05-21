@@ -13,3 +13,8 @@ Developed a unified Python-based fuzzing tool for automated input generation and
 - **Use Cases**: Identifying bugs, crash triggers, and security issues from malformed or adversarial input.
 
 Project done in Term 8 SUTD - 2025
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+More detailed instructions on how to run the fuzzer can be found in the README.md file inside the Software-Testing-Project folder
