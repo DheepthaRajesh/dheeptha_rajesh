@@ -4,6 +4,8 @@ This project is a comprehensive **equity research report** on **Apple Inc.** (AA
 
 **Final Recommendation : BUY**
 
+Project done in SUTD Term 8 - 2025
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
